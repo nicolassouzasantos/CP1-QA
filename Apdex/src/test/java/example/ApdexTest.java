@@ -1,3 +1,5 @@
+//Nicolas Souza dos Santos / rm555571
+
 package example;
 
 import org.example.Apdex;
@@ -9,7 +11,7 @@ public class ApdexTest {
     @Test
     public void calcApdex() {
         // arrange
-        Apdex apdex = new Apdex(1000, 0, 1000);
+        Apdex apdex = new Apdex(555571, 0, 555571);
 
         // act
         float score = apdex.calcularApdex();
@@ -21,7 +23,7 @@ public class ApdexTest {
     @Test
     public void calcApdexBom() {
         // arrange
-        Apdex apdex = new Apdex(870, 40, 1000);
+        Apdex apdex = new Apdex(494458, 61113, 555571);
 
         // act
         float score = apdex.calcularApdex();
@@ -33,7 +35,7 @@ public class ApdexTest {
     @Test
     public void calcApdexrazoavel() {
         // arrange
-        Apdex apdex = new Apdex(770, 60, 1000);
+        Apdex apdex = new Apdex(444456, 111115, 555571);
 
         // act
         float score = apdex.calcularApdex();
@@ -45,7 +47,7 @@ public class ApdexTest {
     @Test
     public void calcApdexRuim() {
         // arrange
-        Apdex apdex = new Apdex(590, 60, 1000);
+            Apdex apdex = new Apdex(327786, 227785, 555571);
 
         // act
         float score = apdex.calcularApdex();
